@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ page.lang | default: 'en' }}">
 
   {% include head.html %}
 
   <body>
 
-    {{ content }}
+    <main class="main" aria-label="Content">
+      {{ content }}
+    </main>
 
     <!--startjs-->
     {% include js-custom.html %}
