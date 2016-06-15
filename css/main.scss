@@ -8,3 +8,10 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "bootstrap";
+
+
+.example-content h2 {
+margin-top: 7rem;
+}.example-content h3 {
+margin-top: 2rem;
+}
