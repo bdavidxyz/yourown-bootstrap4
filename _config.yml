@@ -1,11 +1,11 @@
-# Welcome to Impatient-Jekyll!
+# Welcome to yourown-bootstrap4!
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically.
 
 # Site settings
-title: Title for Impatient-Jekyll
+title: Title for yourown-bootstrap4
 email: your-email@domain.com
 description: > # this means to ignore newlines until "twitter_username:"
   Write an awesome description for your new site here. You can edit this

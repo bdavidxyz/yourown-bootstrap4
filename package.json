@@ -1,5 +1,5 @@
 {
-  "name": "impatient-jekyll",
+  "name": "yourown-bootstrap4",
   "version": "0.0.0",
   "description": "A starter project including full setup for Jekyll 3, GulpJS, SASS, BrowserSync, and Github pages",
   "main": "gulpfile.js",
@@ -30,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bdavidxyz/impatient-jekyll.git"
+    "url": "https://github.com/bdavidxyz/yourown-bootstrap4.git"
   },
   "keywords": [
     "jekyll",
@@ -41,5 +41,5 @@
     "github",
     "googlepagespeed"
   ],
-  "homepage": "https://github.com/bdavidxyz/impatient-jekyll/"
+  "homepage": "https://github.com/bdavidxyz/yourown-bootstrap4/"
 }

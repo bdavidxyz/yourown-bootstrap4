@@ -3,12 +3,12 @@
 
 
 
-<h1 align="center">Impatient-Jekyll</h1>
+<h1 align="center">yourown-bootstrap4</h1>
 <div align="center">Opinionated Jekyll starter kit</div><div align="center">Get a fast local workflow, and a strongly optimized website in production.</div>
 
 
 
-## [View demos and full documentation &rarr;](http://bdavidxyz.github.io/impatient-jekyll)
+## [View demos and full documentation &rarr;](http://bdavidxyz.github.io/yourown-bootstrap4)
 
 ## How to use it
 
@@ -27,8 +27,8 @@ Versions I used : node 5.11.1, npm 3.8.6, gulp 3.9.1, jekyll 3.1.6, ruby 2.3.0
 
 ```shell
 
-$ git clone https://github.com/bdavidxyz/impatient-jekyll
-$ cd impatient-jekyll
+$ git clone https://github.com/bdavidxyz/yourown-bootstrap4
+$ cd yourown-bootstrap4
 $ npm install
 $ gulp
  # ta-da ! the browser launches itself,
