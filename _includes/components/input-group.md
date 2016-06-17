@@ -1,12 +1,12 @@
 
 
 <div class="sub-header">
-  <h2 class="component-title" id="forms">Input-group</h2>
+  <h2 class="component-title" id="input-group">Input-group</h2>
 </div>
 
 <div class="row">
   <div class="col-lg-4">
-    <h3 class="component-title" id="forms">Basic example</h3>
+    <h3 class="component-title"  >Basic example</h3>
 
 
     <div class="input-group">
@@ -32,7 +32,7 @@
     </div>
   </div>
   <div class="col-lg-4">
-    <h3 class="component-title" id="forms">Sizing</h3>
+    <h3 class="component-title"  >Sizing</h3>
 
 
     <div class="input-group input-group-lg">
@@ -49,7 +49,7 @@
       <span class="input-group-addon" id="sizing-addon3">@</span>
       <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon3">
     </div>
-    <h3 class="component-title" id="forms">Checkboxes and radio addons</h3>
+    <h3 class="component-title"  >Checkboxes and radio addons</h3>
 
     <div class="row">
       <div class="col-lg-6">
@@ -73,7 +73,7 @@
   <div class="col-lg-4">
 
 
-    <h3 class="component-title" id="forms">Button addons</h3>
+    <h3 class="component-title"  >Button addons</h3>
 
     <div class="row">
       <div class="col-lg-6">
@@ -114,7 +114,7 @@
 <div class="row">
   <div class="col-lg-6">
 
-    <h3 class="component-title" id="forms">Buttons with dropdowns</h3>
+    <h3 class="component-title"  >Buttons with dropdowns</h3>
 
     <div class="row">
       <div class="col-lg-6">
@@ -155,7 +155,7 @@
 
   </div>
   <div class="col-lg-6">
-    <h3 class="component-title" id="forms">Segmented buttons</h3>
+    <h3 class="component-title"  >Segmented buttons</h3>
 
     <div class="row">
       <div class="col-lg-6">

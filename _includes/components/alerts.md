@@ -1,13 +1,17 @@
-<h2 class="component-title" id="alerts">Alerts</h2>
+<div class="sub-header">
+  <h2 class="component-title" id="alerts">Alerts</h2>
+</div>
 
-  <div class="row">
-  <div class="col-lg-12">
+<div class="row">
+  <div class="col-lg-6">
     <div class="alert alert-success" role="alert">
       <strong>Well done!</strong> You successfully read <a href="#" class="alert-link">this important alert message</a>.
     </div>
     <div class="alert alert-info" role="alert">
       <strong>Heads up!</strong> This <a href="#" class="alert-link">alert needs your attention</a>, but it's not super important.
     </div>
+  </div>
+  <div class="col-lg-6">
     <div class="alert alert-danger" role="alert">
       <strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting again.
     </div>
@@ -20,6 +24,7 @@
     </div>
   </div>
 </div>
+
 
 
 

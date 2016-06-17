@@ -4,8 +4,8 @@
 </div>
 
 
-
-### Example
+    
+<h3 class="component-title">Example</h3>
 
 <div class="row">
   <div class="col-lg-3">
@@ -55,8 +55,7 @@
   </div>
 </div>
 
-
-### Sizing
+<h3 class="component-title">Sizing</h3>
 
 <div class="row">
   <div class="col-lg-8">
@@ -89,8 +88,7 @@
 
 
 
-
-### Text alignment
+<h3 class="component-title">Text alignment</h3>
 
 <div class="col-lg-4">
   <div class="card card-block">
@@ -121,8 +119,7 @@
 
 
 
-
-### Header and footer
+<h3 class="component-title">Header and footer</h3>
 
 <div class="col-lg-3">
   <div class="card">
@@ -222,8 +219,7 @@
   </div>
 </div>
 
-
-### Background variants
+<h3 class="component-title">Background variants</h3>
 
 <div class="row">
   <div class="col-lg-4">
@@ -290,8 +286,7 @@
 
 
 
-
-### Groups
+<h3 class="component-title">Groups</h3>
 
 <div class="card-group">
   <div class="card">
@@ -320,8 +315,7 @@
   </div>
 </div>
 
-
-### Decks
+<h3 class="component-title">Decks</h3>
 
 <div class="card-deck-wrapper">
   <div class="card-deck">
@@ -352,8 +346,7 @@
   </div>
 </div>
 
-
-### Columns
+<h3 class="component-title">Columns</h3>
 
 <div class="card-columns">
   <div class="card">

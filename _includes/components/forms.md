@@ -1,6 +1,6 @@
 
 <div class="sub-header">
-  <h2 class="component-title" id="forms">Forms</h2>
+<h2 class="component-title" id='forms' >Forms</h2>
 </div>
 
 <div class="row">

@@ -1,8 +1,10 @@
+<div class="sub-header">
+  <h2 class="component-title" id="pagination">Pagination</h2>
+</div>
 
-## Pagination
-
-
-### Default pagination
+<div class="row">
+  <div class="col-lg-4">
+    <h3 class="component-title">Default pagination</h3>
 
 <nav>
   <ul class="pagination">
@@ -26,7 +28,9 @@
   </ul>
 </nav>
 
-### Disabled and active states
+  </div>
+  <div class="col-lg-4">
+    <h3 class="component-title">Disabled and active states</h3>
 
 <nav>
   <ul class="pagination">
@@ -64,10 +68,10 @@
     <li class="page-item active"><span class="page-link">1 <span class="sr-only">(current)</span></span></li>
   </ul>
 </nav>
-
-
-### Sizing
-
+  </div>
+  <div class="col-lg-4">
+    
+<h3 class="component-title">Sizing</h3>
 
 <nav>
   <ul class="pagination pagination-lg">
@@ -108,11 +112,14 @@
     </li>
   </ul>
 </nav>
+  </div>
+</div>
 
 
-
-### Pager Default example
-
+<div class="row">
+  <div class="col-lg-4">
+    
+<h3 class="component-title">Pager Default example</h3>
 
 <nav>
   <ul class="pager">
@@ -120,8 +127,9 @@
     <li><a href="#">Next</a></li>
   </ul>
 </nav>
-
-### Aligned links
+  </div>
+  <div class="col-lg-4">
+    <h3 class="component-title">Aligned links</h3>
 
 <nav>
   <ul class="pager">
@@ -129,9 +137,9 @@
     <li class="pager-next"><a href="#">Newer</a></li>
   </ul>
 </nav>
-
-
-### Optional disabled state
+  </div>
+  <div class="col-lg-4">
+    <h3 class="component-title">Optional disabled state</h3>
 
 <nav>
   <ul class="pager">
@@ -139,3 +147,15 @@
     <li class="pager-next"><a href="#">Newer</a></li>
   </ul>
 </nav>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+

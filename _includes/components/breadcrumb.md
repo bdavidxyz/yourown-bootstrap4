@@ -1,4 +1,7 @@
-## Breadcrumb
+
+<div class="sub-header">
+  <h2 class="component-title" id="breadcrumb">Breadcrumb</h2>
+</div>
 
 <div class="row">
   <div class="col-lg-6">

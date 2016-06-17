@@ -1,9 +1,9 @@
-## Navbar
+<div class="sub-header">
+  <h2 class="component-title" id="navbar">Navbar</h2>
+</div>
 
 
-### Basics
-
-
+<h3 class="component-title">Basics</h3>
 <nav class="navbar navbar-light bg-faded">
   <a class="navbar-brand" href="#">Navbar</a>
   <ul class="nav navbar-nav">
@@ -27,20 +27,16 @@
 </nav>
 
 
-### Brand
-
+<h3 class="component-title">Brand</h3>
 <nav class="navbar navbar-light bg-faded">
   <a class="navbar-brand" href="#">Navbar</a>
 </nav>
-
 <nav class="navbar navbar-light bg-faded">
   <h1 class="navbar-brand">Navbar</h1>
 </nav>
 
 
-### Color schemes
-
-
+<h3 class="component-title">Color schemes</h3>
 <div class="bd-example">
   <nav class="navbar navbar-dark bg-inverse">
     <a class="navbar-brand" href="#">Navbar</a>
@@ -110,9 +106,7 @@
 
 
 
-### Collapsible content
-
-
+<h3 class="component-title">Collapsible content</h3>
 <div class="collapse" id="exCollapsingNavbar">
   <div class="bg-inverse p-a-1">
     <h4>Collapsed content</h4>

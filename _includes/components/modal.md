@@ -1,10 +1,9 @@
 
-## Modal
+<div class="sub-header">
+  <h2 class="component-title" id="modal">Modal</h2>
+</div>
 
-
-
-### Static example
-
+<h3 class="component-title">Static example</h3>
 
 <div class="bd-example bd-example-modal">
   <div class="modal" style="display: inherit;position: static;">
@@ -23,7 +22,7 @@
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           <button type="button" class="btn btn-primary">Save changes</button>
         </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
+      </div>
+    </div>
+  </div>
 </div>
