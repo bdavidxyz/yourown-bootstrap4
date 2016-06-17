@@ -1,6 +1,6 @@
-## Alerts
+<h2 class="component-title" id="alerts">Alerts</h2>
 
-<div class="row">
+  <div class="row">
   <div class="col-lg-12">
     <div class="alert alert-success" role="alert">
       <strong>Well done!</strong> You successfully read <a href="#" class="alert-link">this important alert message</a>.
@@ -20,6 +20,7 @@
     </div>
   </div>
 </div>
+
 
 
 
