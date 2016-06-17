@@ -19,3 +19,22 @@
 // .example-content h4 {
 // margin-top: 3rem;
 // }
+
+.sub-header {
+  padding-bottom: 9px;
+  margin: 10rem 0 2rem;
+  border-bottom: 1px solid #eee;
+  h2 {
+    @extend h1;
+  }
+}
+
+h3.component-title {
+  @extend .lead;
+  font-weight: bold;
+  margin: 1.5rem 0 1rem;
+} 
+h4.component-title {
+  @extend .lead;
+  margin: 1rem 0 1rem;
+}

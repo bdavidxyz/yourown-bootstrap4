@@ -1,141 +1,153 @@
 
-## Forms
+<div class="sub-header">
+  <h2 class="component-title" id="forms">Forms</h2>
+</div>
+
+<div class="row">
+  <div class="col-lg-6">
 
 
-### Form controls
+    <h3 class="component-title">Form controls</h3>
 
 
-<form>
-  <fieldset class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-    <small class="text-muted">We'll never share your email with anyone else.</small>
-  </fieldset>
-  <fieldset class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </fieldset>
-  <fieldset class="form-group">
-    <label for="exampleSelect1">Example select</label>
-    <select class="form-control" id="exampleSelect1">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-  </fieldset>
-  <fieldset class="form-group">
-    <label for="exampleSelect2">Example multiple select</label>
-    <select multiple class="form-control" id="exampleSelect2">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-  </fieldset>
-  <fieldset class="form-group">
-    <label for="exampleTextarea">Example textarea</label>
-    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-  </fieldset>
-  <fieldset class="form-group">
-    <label for="exampleInputFile">File input</label>
-    <input type="file" class="form-control-file" id="exampleInputFile">
-    <small class="text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
-  </fieldset>
-  <div class="radio">
-    <label>
-      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-      Option one is this and that&mdash;be sure to include why it's great
-    </label>
+
+    <form>
+      <fieldset class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+        <small class="text-muted">We'll never share your email with anyone else.</small>
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleSelect1">Example select</label>
+        <select class="form-control" id="exampleSelect1">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleSelect2">Example multiple select</label>
+        <select multiple class="form-control" id="exampleSelect2">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleTextarea">Example textarea</label>
+        <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleInputFile">File input</label>
+        <input type="file" class="form-control-file" id="exampleInputFile">
+        <small class="text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
+      </fieldset>
+      <div class="radio">
+        <label>
+          <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+          Option one is this and that&mdash;be sure to include why it's great
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+          Option two can be something else and selecting it will deselect option one
+        </label>
+      </div>
+      <div class="radio disabled">
+        <label>
+          <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+          Option three is disabled
+        </label>
+      </div>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Check me out
+        </label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
   </div>
-  <div class="radio">
-    <label>
-      <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-      Option two can be something else and selecting it will deselect option one
-    </label>
+  <div class="col-lg-6">
+
+    <h3 class="component-title">Form groups</h3>
+
+    <form>
+      <fieldset class="form-group">
+        <label for="formGroupExampleInput">Example label</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="formGroupExampleInput2">Another label</label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+      </fieldset>
+    </form>
+
+    <h3 class="component-title">Inline forms</h3>
+
+
+
+
+    <h4 class="component-title">Visible labels</h4>
+
+    <form class="form-inline">
+      <div class="form-group">
+        <label for="exampleInputName2">Name</label>
+        <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail2">Email</label>
+        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+      </div>
+      <button type="submit" class="btn btn-primary">Send invitation</button>
+    </form>
+
+
+    <h4 class="component-title">Hidden labels</h4>
+
+
+    <form class="form-inline">
+      <div class="form-group">
+        <label class="sr-only" for="exampleInputEmail3">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter email">
+      </div>
+      <div class="form-group">
+        <label class="sr-only" for="exampleInputPassword3">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+      </div>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Remember me
+        </label>
+      </div>
+      <button type="submit" class="btn btn-primary">Sign in</button>
+    </form>
+
+    <form class="form-inline">
+      <div class="form-group">
+        <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+        <div class="input-group">
+          <div class="input-group-addon">$</div>
+          <input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
+          <div class="input-group-addon">.00</div>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Transfer cash</button>
+    </form>
   </div>
-  <div class="radio disabled">
-    <label>
-      <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
-      Option three is disabled
-    </label>
-  </div>
-  <div class="checkbox">
-    <label>
-      <input type="checkbox"> Check me out
-    </label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+</div>
 
 
 
-### Form groups
-
-<form>
-  <fieldset class="form-group">
-    <label for="formGroupExampleInput">Example label</label>
-    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
-  </fieldset>
-  <fieldset class="form-group">
-    <label for="formGroupExampleInput2">Another label</label>
-    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
-  </fieldset>
-</form>
-
-
-### Inline forms
-
-
-
-#### Visible labels
-
-<form class="form-inline">
-  <div class="form-group">
-    <label for="exampleInputName2">Name</label>
-    <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail2">Email</label>
-    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
-  </div>
-  <button type="submit" class="btn btn-primary">Send invitation</button>
-</form>
-
-#### Hidden labels
-
-<form class="form-inline">
-  <div class="form-group">
-    <label class="sr-only" for="exampleInputEmail3">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter email">
-  </div>
-  <div class="form-group">
-    <label class="sr-only" for="exampleInputPassword3">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
-  </div>
-  <div class="checkbox">
-    <label>
-      <input type="checkbox"> Remember me
-    </label>
-  </div>
-  <button type="submit" class="btn btn-primary">Sign in</button>
-</form>
-
-<form class="form-inline">
-  <div class="form-group">
-    <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
-    <div class="input-group">
-      <div class="input-group-addon">$</div>
-      <input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
-      <div class="input-group-addon">.00</div>
-    </div>
-  </div>
-  <button type="submit" class="btn btn-primary">Transfer cash</button>
-</form>
-
-### Using the Grid
+<h3 class="component-title">Using the Grid</h3>
 
 
 <form>
@@ -191,9 +203,10 @@
   </div>
 </form>
 
-### Checkboxes and radios
+<h3 class="component-title">Checkboxes and radios</h3>
 
-#### Default (stacked)
+
+<h4 class="component-title">Default (stacked)</h4>
 
 <div class="checkbox">
   <label>
@@ -227,8 +240,7 @@
   </label>
 </div>
 
-#### Inline
-
+<h4 class="component-title">Inline</h4>
 
 <label class="checkbox-inline">
   <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
@@ -251,7 +263,7 @@
 </label>
 
 
-#### Without labels
+<h4 class="component-title">Without labels</h4>
 
 <div class="checkbox">
   <label>
@@ -264,7 +276,7 @@
   </label>
 </div>
 
-### Static controls
+<h3 class="component-title">Static controls</h3>
 
 <form>
   <div class="form-group row">
@@ -293,8 +305,7 @@
   <button type="submit" class="btn btn-primary">Confirm identity</button>
 </form>
 
-
-### Disabled states
+<h3 class="component-title">Disabled states</h3>
 
 <form>
   <fieldset disabled>
@@ -318,12 +329,12 @@
 </form>
 
 
-### Readonly inputs
+<h3 class="component-title">Readonly inputs</h3>
 
 
 <input class="form-control" type="text" placeholder="Readonly input here…" readonly>
 
-### Control sizing
+<h3 class="component-title">Control sizing</h3>
 
 
 <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg">
@@ -334,7 +345,7 @@
 <select class="form-control"></select>
 <select class="form-control form-control-sm"></select>
 
-### Column sizing
+<h3 class="component-title">Column sizing</h3>
 
 Wrap inputs in grid columns, or any custom parent element, to easily enforce desired widths.
 
@@ -350,7 +361,8 @@ Wrap inputs in grid columns, or any custom parent element, to easily enforce des
   </div>
 </div>
 
-### Help text
+
+<h3 class="component-title">Help text</h3>
 
 <small class="text-muted">
   Some inline text with a small tag looks like this.
@@ -361,9 +373,8 @@ Wrap inputs in grid columns, or any custom parent element, to easily enforce des
   A block of help text that breaks onto a new line and may extend beyond one line.
 </p>
 
-### Validation
 
-
+<h3 class="component-title">Validation</h3>
 
 <div class="form-group has-success">
   <label class="form-control-label" for="inputSuccess1">Input with success</label>
@@ -397,10 +408,11 @@ Wrap inputs in grid columns, or any custom parent element, to easily enforce des
   </label>
 </div>
 
-### Custom forms
 
 
-#### Checkboxes
+<h3 class="component-title">Custom forms</h3>
+
+<h4 class="component-title">Checkboxes</h4>
 
 <label class="c-input c-checkbox">
   <input type="checkbox">
@@ -416,8 +428,7 @@ Wrap inputs in grid columns, or any custom parent element, to easily enforce des
   </label>
 </div>
 
-
-#### Radios
+<h4 class="component-title">Radios</h4>
 
 <label class="c-input c-radio">
   <input id="radio1" name="radio" type="radio">
@@ -430,7 +441,8 @@ Wrap inputs in grid columns, or any custom parent element, to easily enforce des
   Or toggle this other custom radio
 </label>
 
-#### Stacked
+
+<h4 class="component-title">Stacked</h4>
 
 <div class="c-inputs-stacked">
   <label class="c-input c-radio">
@@ -445,7 +457,7 @@ Wrap inputs in grid columns, or any custom parent element, to easily enforce des
   </label>
 </div>
 
-#### Select menu
+<h4 class="component-title">Select menu</h4>
 
 <select class="c-select">
   <option selected>Open this select menu</option>
@@ -454,7 +466,7 @@ Wrap inputs in grid columns, or any custom parent element, to easily enforce des
   <option value="3">Three</option>
 </select>
 
-### File browser
+<h3 class="component-title">File browser</h3>
 
 <label class="file">
   <input type="file" id="file">
