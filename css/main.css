@@ -60,7 +60,7 @@ strong {
 dfn {
   font-style: italic; }
 
-h1 {
+h1, .sub-header h2 {
   font-size: 2em;
   margin: 0.67em 0; }
 
@@ -272,7 +272,7 @@ body {
 [tabindex="-1"]:focus {
   outline: none !important; }
 
-h1, h2, h3, h4, h5, h6 {
+h1, .sub-header h2, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: .5rem; }
 
@@ -403,7 +403,7 @@ output {
 [hidden] {
   display: none !important; }
 
-h1, h2, h3, h4, h5, h6,
+h1, .sub-header h2, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-family: inherit;
@@ -411,7 +411,7 @@ h1, h2, h3, h4, h5, h6,
   line-height: 1.1;
   color: inherit; }
 
-h1 {
+h1, .sub-header h2 {
   font-size: 2.5rem; }
 
 h2 {
@@ -447,7 +447,7 @@ h6 {
 .h6 {
   font-size: 1rem; }
 
-.lead {
+.lead, h3.component-title, h4.component-title {
   font-size: 1.25rem;
   font-weight: 300; }
 
@@ -4655,8 +4655,14 @@ a.bg-danger:focus, a.bg-danger:hover {
   .hidden-print {
     display: none !important; } }
 
-.example-content h2 {
-  margin-top: 12rem; }
+.sub-header {
+  padding-bottom: 9px;
+  margin: 10rem 0 2rem;
+  border-bottom: 1px solid #eee; }
 
-.example-content h3 {
-  margin-top: 2rem; }
+h3.component-title {
+  font-weight: bold;
+  margin: 1.5rem 0 1rem; }
+
+h4.component-title {
+  margin: 1.5rem 0 .5rem; }
