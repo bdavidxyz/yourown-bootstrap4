@@ -1,7 +1,7 @@
 {
   "name": "yourown-bootstrap4",
   "version": "0.0.0",
-  "description": "A starter project including full setup for Jekyll 3, GulpJS, SASS, BrowserSync, and Github pages",
+  "description": "Commands and workflow to create your own Bootstrap 4",
   "main": "gulpfile.js",
   "engines": {
     "node": "~5.11.1",
