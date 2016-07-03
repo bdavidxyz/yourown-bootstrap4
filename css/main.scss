@@ -3,38 +3,66 @@
 ---
 @charset "utf-8";
 
+// @font-face {
+//   font-family: 'Montserrat-Light';
+//   src: url('{{site.baseurl}}/fonts/Montserrat-Light.otf');
+// }
+// @font-face {
+//   font-family: 'Montserrat-Regular';
+//   src: url('{{site.baseurl}}/fonts/Montserrat-Regular.otf');
+// }
+// @font-face {
+//   font-family: 'BodoniFLF-Italic';
+//   src: url('{{site.baseurl}}/fonts/BodoniFLF-Italic.ttf');
+// }
 
-
-
-// Import partials from `sass_dir` (defaults to `_sass`)
 @import "bootstrap";
 
+// responsive typography
+html {
+  font-size: 14px;
+}
 
-// .example-content h2 {
-// margin-top: 12rem;
-// }
-// .example-content h3 {
-// margin-top: 6rem;
-// }
-// .example-content h4 {
-// margin-top: 3rem;
-// }
-
-.sub-header {
-  padding-bottom: 9px;
-  margin: 10rem 0 2rem;
-  border-bottom: 1px solid #eee;
-  h2 {
-    @extend h1;
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 16px;
   }
 }
 
-h3.component-title {
-  @extend .lead;
-  font-weight: bold;
-  margin: 1.5rem 0 1rem;
-} 
-h4.component-title {
-  @extend .lead;
-  margin: 1.5rem 0 .5rem;
+body {
+  border-top: 5px solid $brand-primary;
+}
+
+code {
+  color: $brand-primary;
+}
+
+.mycode {
+  font-family: $font-family-monospace;
+  font-size: $code-font-size;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color:whitesmoke;
+  @extend .p-t-1;
+  @extend .p-l-1;
+  @extend .p-b-1;
+  word-wrap: break-word;
+}
+.mycode__comment {
+  color:#9C9E9C;
+}
+
+.player {
+  @extend .text-xs-center;
+  display: flex;
+  cursor: pointer;
+}
+
+.player__text {
+  @extend .p-l-1;
+  align-self: center;
+  color: $brand-primary;
+  &:hover {
+    text-decoration: underline;
+  }
 }
