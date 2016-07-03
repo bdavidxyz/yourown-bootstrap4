@@ -10,11 +10,21 @@ layout: default
 
   <div class="row text-xs-center">
     <div class="col-md-8 offset-md-2">
-      <h1 class='display-3'>
+
+      <span class='hidden-xs-down'>
+        <h1 class='display-4'>
+          <div>
+            Your own <span class='text-primary'>Bootstrap 4</span>
+          </div>
+        </h1>
+      </span>
+      <span class='hidden-sm-up'>      
+        <h1>
         <div>
-          Your own <span class='text-primary'>Bootstrap 4</span>
-        </div>
-      </h1>
+            Your own <span class='text-primary'>Bootstrap 4</span>
+          </div>
+        </h1>
+      </span>
       <p>
         <div  class="lead">
           Build your own Bootstrap 4 theme. Workflow included.
@@ -23,9 +33,9 @@ layout: default
       <div class="separator m-b-4"></div>
       <p>
         <a class="btn btn-lg btn-secondary separator m-b-1" href='#demos'>
-          &#x2b07; Download
+          &#x2b07; Download &nbsp;
         </a>
-        <a class="btn btn-lg btn-primary separator m-b-1" href='https://github.com/bdavidxyz/impatient-jekyll/' target='_blank'>
+        <a class="btn btn-lg btn-primary separator m-b-1" href='https://github.com/bdavidxyz/yourown-bootstrap4/' target='_blank'>
           <span class='hidden-xs-down'>&#x2605; Star it on GitHub</span>
           <span class='hidden-sm-up'>&#x2605; GitHub</span>
         </a>
@@ -38,16 +48,16 @@ layout: default
 
 
 
-<div class="separator m-b-6"></div>
-<div class="row">
-  <div class="col-md-8 offset-md-2">
-    <h2 class='text-xs-center'>
-      <div>
-       Top <span class='text-primary'>Features</span>
-      </div>
-    </h2>
-    <p>&nbsp;</p>
-    <ol class="li">
+  <div class="separator m-b-6"></div>
+  <div class="row">
+    <div class="col-md-8 offset-md-2">
+      <h2 class='text-xs-center'>
+        <div>
+         Top <span class='text-primary'>Features</span>
+       </div>
+     </h2>
+     <p>&nbsp;</p>
+     <ol class="li">
       <strong>Great coding comfort.</strong> 
       Livereload in dev mode, no more need to manually refresh browser on each code change.
     </ol>
@@ -68,185 +78,90 @@ layout: default
 
 
 
-  <div class="separator m-b-5"></div>
-  <div class="row">
-    <div class="col-md-8 offset-md-2">
-      <h2 class='text-xs-center'>
-        <div>
-          How to <span class='text-primary'>use</span> it ?
-        </div>
-      </h2>
-      <div class="separator m-b-1"></div>
-      <p class='text-xs-center'>
-        Work & iterate fast locally
-      </p>
-      <div class='mycode'>
-        <div>
-          $ git clone https://github.com/bdavidxyz/impatient-jekyll/
-        </div>
-        <div>
-          $ cd impatient-jekyll
-        </div>
-        <div>
-          $ npm install
-        </div>
-        <div>
-          $ gulp
-        </div>
-        <div class='mycode__comment'>
-          # ta-da ! the browser launches itself,
-        </div>
-        <div class='mycode__comment'>
-          # and will rebuild and live-reload each time you
-        </div>
-        <div class='mycode__comment'>
-          # change a CSS, JS, or HTML file
-        </div>
+<div class="separator m-b-5"></div>
+<div class="row">
+  <div class="col-md-8 offset-md-2">
+    <h2 class='text-xs-center'>
+      <div>
+        How to <span class='text-primary'>use</span> it ?
       </div>
-      <div class="separator m-b-1"></div>
-      <p class='text-xs-center'>
-        Make it visible to the world
-      </p>
-      <div class='mycode'>
-        <div class='mycode__comment'>
-          # Do 'git clone' and 'cd' as above
-        </div>
-        <div class='mycode__comment'>
-          # Go on github, and a create a new repo [repoID]
-        </div>
-        <div>
-          $ rm -rf .git
-        </div>
-        <div>
-          $ git init && git add . && git commit -m 'first commit'
-        </div>
-        <div>
-          $ git remote add origin git@github.com:[githubID]/[repoID].git
-        </div>
-        <div class='mycode__comment'>
-          # In config.prod.yml, set baseurl to [repoID]
-        </div>
-        <div>
-          $ gulp deploy
-        </div>
-        <div class='mycode__comment'>
-          # Your website is available at
-        </div>
-        <div class='mycode__comment'>
-          # https://[githubID].github.io/[repoID]
-        </div>
-        <div class='mycode__comment'>
-          # Test it on Google Page Speed Insight,
-        </div>
-        <div class='mycode__comment'>
-          # It rocks !!
-        </div>
+    </h2>
+
+
+
+
+
+    <div class="separator m-b-2"></div>
+    <p>
+      0. Check your tools
+    </p>
+    <div class='mycode'>
+      <div>
+        $ git --version <span class='mycode__comment'>// tested with</span>
+      </div>
+      <div>
+        $ ruby --version <span class='mycode__comment'>// tested with</span>
+      </div>
+      <div>
+        $ jekyll --version <span class='mycode__comment'>// tested with</span>
+      </div>
+      <div>
+        $ npm --version <span class='mycode__comment'>// tested with</span>
+      </div>
+      <div>
+        $ gulp --version <span class='mycode__comment'>// tested with</span>
       </div>
     </div>
-  </div>
 
 
-
-  <div class="separator m-b-6"></div>
-  <div class="row" id='demos'>
-    <div class="col-md-8 offset-md-2">
-      <h2 class='text-xs-center'>
-        <div>
-          <span class='text-primary'>Demo</span>, please ?
-        </div>
-      </h2>
-
-      <div class="separator m-b-2"></div>
-      <h3>Workflow</h3>
-
-
-
-      <div class="separator m-b-2"></div>
-      <a href="https://youtu.be/JIYSIiRH9kQ" target='_blank' style="display:block">
-        <div class='player'  >
-          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 58 58" width='38px' height='38px' style="enable-background:new 0 0 58 58;" xml:space="preserve">
-            <circle style="fill:#3366CC;" cx="29" cy="29" r="29"/>
-            <g>
-              <polygon style="fill:#FFFFFF;" points="44,29 22,44 22,29.273 22,14"/>
-              <path style="fill:#FFFFFF;" d="M22,45c-0.16,0-0.321-0.038-0.467-0.116C21.205,44.711,21,44.371,21,44V14   c0-0.371,0.205-0.711,0.533-0.884c0.328-0.174,0.724-0.15,1.031,0.058l22,15C44.836,28.36,45,28.669,45,29s-0.164,0.64-0.437,0.826   l-22,15C22.394,44.941,22.197,45,22,45z M23,15.893v26.215L42.225,29L23,15.893z"/>
-            </g>
-          </svg>
-          <div class='player__text'>
-            1'00 demo of HTML, CSS and JS Live reload.
-          </div>
-        </div>
-      </a>
+    <div class="separator m-b-2"></div>
+    <p>
+      1. Develop locally
+    </p>
+    <div class='mycode'>
+      <div>
+        $ git clone https://github.com/bdavidxyz/impatient-jekyll/
+      </div>
+      <div>
+        $ cd impatient-jekyll
+      </div>
+      <div>
+        $ npm install
+      </div>
+      <div>
+        $ gulp
+      </div>
+      <div class='mycode__comment'>
+        # ta-da ! the browser launches itself,
+      </div>
+      <div class='mycode__comment'>
+        # and will rebuild and live-reload each time you
+      </div>
+      <div class='mycode__comment'>
+        # change a CSS, JS, or HTML file
+      </div>
+    </div>
 
 
-      <div class="separator m-b-3"></div>
-      <h3>Deploy</h3>
-      <div class="separator m-b-2"></div>
-      <a href="https://youtu.be/F-xuBlQLE7w" target='_blank' style="display:block">
-        <div class='player'>
-          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 58 58" width='38px' height='38px' style="enable-background:new 0 0 58 58;" xml:space="preserve">
-            <circle style="fill:#3366CC;" cx="29" cy="29" r="29"/>
-            <g>
-              <polygon style="fill:#FFFFFF;" points="44,29 22,44 22,29.273 22,14"/>
-              <path style="fill:#FFFFFF;" d="M22,45c-0.16,0-0.321-0.038-0.467-0.116C21.205,44.711,21,44.371,21,44V14   c0-0.371,0.205-0.711,0.533-0.884c0.328-0.174,0.724-0.15,1.031,0.058l22,15C44.836,28.36,45,28.669,45,29s-0.164,0.64-0.437,0.826   l-22,15C22.394,44.941,22.197,45,22,45z M23,15.893v26.215L42.225,29L23,15.893z"/>
-            </g>
-          </svg>
-          <div class='player__text'>
-            2'00 screencast : deploy on GitHub Pages.
-          </div>
-        </div>
-      </a>
-
-
-      <div class="separator m-b-3"></div>
-      <h3>Performances</h3>
-      
-      <div class="separator m-b-2"></div>
-      <a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fbdavidxyz.github.io%2Fimpatient-jekyll%2F&tab=mobile" target='_blank' style="display:block">
-        <div class='player'>
-          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-          width="38px" height="38px" viewBox="0 0 38 38" enable-background="new 0 0 38 38" xml:space="preserve">
-          <symbol  id="Recharger" viewBox="-28.579 -29.001 57.158 58.002">
-            <path d="M0.2-20.001c-10.906,0-19.779,8.874-19.779,19.78c0,10.907,8.873,19.781,19.779,19.781c4.679,0,8.971-1.645,12.356-4.373
-            l-9.806-8.48l25.828-3.813l-0.05,26.107l-9.07-7.845c-5.101,4.6-11.85,7.404-19.259,7.404c-15.894,0-28.779-12.887-28.779-28.781
-            s12.886-28.78,28.779-28.78c12.468,0,23.081,7.928,27.08,19.016l-9.199,1.359C14.913-15.336,8.1-20.001,0.2-20.001z" fill="white"/>
-          </symbol>
-          <circle fill="#3366CC" cx="19" cy="19" r="19"/>
-          <use xlink:href="#Recharger"  width="57.158" height="58.002" x="-28.579" y="-29.001" transform="matrix(0.4402 0 0 -0.4402 19 19)" overflow="visible"/>
-        </svg>
-
-        <div class='player__text'>
-          Launch Google Page Speed Insight for these docs.
-        </div>
-        </div>
-      </a>  
-
-
-      <div class="separator m-b-2"></div>
-      <a href="http://www.webpagetest.org/result/160613_Z9_HZX/" target='_blank' style="display:block">
-        <div class='player'>
-          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-          width="38px" height="38px" viewBox="0 0 38 38" enable-background="new 0 0 38 38" xml:space="preserve">
-          <symbol  id="Recharger" viewBox="-28.579 -29.001 57.158 58.002">
-            <path d="M0.2-20.001c-10.906,0-19.779,8.874-19.779,19.78c0,10.907,8.873,19.781,19.779,19.781c4.679,0,8.971-1.645,12.356-4.373
-            l-9.806-8.48l25.828-3.813l-0.05,26.107l-9.07-7.845c-5.101,4.6-11.85,7.404-19.259,7.404c-15.894,0-28.779-12.887-28.779-28.781
-            s12.886-28.78,28.779-28.78c12.468,0,23.081,7.928,27.08,19.016l-9.199,1.359C14.913-15.336,8.1-20.001,0.2-20.001z" fill="white"/>
-          </symbol>
-          <circle fill="#3366CC" cx="19" cy="19" r="19"/>
-          <use xlink:href="#Recharger"  width="57.158" height="58.002" x="-28.579" y="-29.001" transform="matrix(0.4402 0 0 -0.4402 19 19)" overflow="visible"/>
-        </svg>
-
-        <div class='player__text'>
-          View actual Speed Index on WebPageTest.org
-        </div>
-        </div>
-      </a>
-
-
+    <div class="separator m-b-2"></div>
+    <p>
+      2. Extract CSS once you are happy with it.
+    </p>
+    <div class='mycode'>
+      <div>
+        <span class='mycode__comment'>// the whole CSS is under _site/main.css</span>
+      </div>
+    </div>
 
 
 
   </div>
+
 </div>
+
+
+
+
 
 
 
@@ -348,14 +263,14 @@ layout: default
       </div>
       <div class="separator m-b-1"></div>
       <div>Note the startjs and endjs comments : any JS between these will be optimized in production</div>
-  </p>
+    </p>
 
 
 
 
 
 
-  <div class="separator m-b-3"></div>
+    <div class="separator m-b-3"></div>
     <h3>Add any assets, other than CSS & JS </h3>
     <p>
       <div>What if you want more than CSS & JS ? Maybe fonts or image ? </div>

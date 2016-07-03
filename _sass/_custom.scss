@@ -3,7 +3,7 @@
 //$headings-font-family:'BodoniFLF-Italic';
 $headings-font-weight:   bold;
 
-$brand-primary: #912CEE;
+$brand-primary: #A74CAB;
 
 
 $spacer:   1rem;
@@ -19,8 +19,8 @@ $spacers: (
     y: $spacer-y
   ),
   2: (
-    x: ($spacer-x * 1.5),
-    y: ($spacer-y * 1.5)
+    x: ($spacer-x * 2),
+    y: ($spacer-y * 2)
   ),
   3: (
     x: ($spacer-x * 3),
