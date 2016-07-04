@@ -6,9 +6,10 @@
 
   //icky way to hide the "fork me on github" button
   //should find something better one day
-  console.log(window.location.pathname);
   $(document).ready(function () {
-    if(window.location.pathname !== '/') {
+    if(window.location.pathname === '/' || window.location.pathname === '/yourown-bootstrap4/') {
+      // ok
+    } else {
        $('.github-fork-ribbon').hide();
     }
 });
