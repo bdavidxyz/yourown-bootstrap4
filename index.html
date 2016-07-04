@@ -59,22 +59,22 @@ layout: default
     </p>
     <div class='mycode'>
       <div>
-        $ git --version <span class='mycode__comment'>&nbsp;&nbsp;&nbsp;// tested with</span>
+        $ git --version <span class='mycode__comment'>&nbsp;&nbsp;&nbsp;// tested with 2.7.2</span>
       </div>
       <div>
-        $ ruby --version <span class='mycode__comment'>&nbsp;&nbsp;// tested with</span>
+        $ ruby --version <span class='mycode__comment'>&nbsp;&nbsp;// tested with 2.3.0</span>
       </div>
       <div>
-        $ jekyll --version <span class='mycode__comment'>// tested with</span>
+        $ jekyll --version <span class='mycode__comment'>// tested with 3.1.6</span>
       </div>
       <div>
-        $ npm --version <span class='mycode__comment'>&nbsp;&nbsp;&nbsp;// tested with</span>
+        $ npm --version <span class='mycode__comment'>&nbsp;&nbsp;&nbsp;// tested with 3.8.6</span>
       </div>
       <div>
-        $ node --version <span class='mycode__comment'>&nbsp;&nbsp;// tested with</span>
+        $ node --version <span class='mycode__comment'>&nbsp;&nbsp;// tested with 5.11.1</span>
       </div>
       <div>
-        $ gulp --version <span class='mycode__comment'>&nbsp;&nbsp;// tested with</span>
+        $ gulp --version <span class='mycode__comment'>&nbsp;&nbsp;// tested with 3.9.1</span>
       </div>
     </div>
 
@@ -83,8 +83,16 @@ layout: default
 
     <div class="separator m-b-2"></div>
     <p>
-      1. (Optional step) extract last version of Bootstrap. First, empty the _sass directory of yourow-bootstrap4. Copy the <a href="https://github.com/twbs/bootstrap/tree/v4-dev/scss">scss folder</a> content of Bootstrap 4 into the _sass directory.
+      1. (Optional step) extract last version of Bootstrap.  
     </p>
+    <ul>
+      <li>First, empty the _sass directory of yourow-bootstrap4.</li>
+      <li>Copy the <a href="https://github.com/twbs/bootstrap/tree/v4-dev/scss">scss folder</a> content of Bootstrap 4 into the _sass directory.</li>
+      <li>Copy the <a href="https://github.com/twbs/bootstrap/blob/v4-dev/scss/_variables.scss">_variables.scss</a> content of Bootstrap 4 into the _sass/_custom.scss file.</li>
+      <li>Remove all !default declaration in _sass/_custom.scss.</li>
+      <li>Comment all lines in _sass/_custom.scss.</li>
+      <li>Done ! You are ready for Boostrap 4 customization.</li>
+    </ul>
 
 
 
@@ -173,7 +181,7 @@ layout: default
     <div>
       <strong>But I can achieve a custom Bootstrap theme in many other ways...</strong> 
       <div>  
-        Indeed. You can override Bootstrap CSS properties, but it performs poorly, and may lead to inconsistencies. You can change CSS properties in the Bootstrap custom download page, but without any preview of your work. Finally you can rebuild the whole Bootstrap distribution as stated in the Github repository, without visual check of all components at once. 
+        Indeed (again). You can override Bootstrap CSS properties, but it performs poorly, and may lead to inconsistencies. You can change CSS properties in the Bootstrap custom download page, but without any preview of your work. Finally you can rebuild the whole Bootstrap distribution as stated in the Github repository, without visual check of all components at once. 
       </div>
     </div>
     <div class="separator m-b-1"></div>

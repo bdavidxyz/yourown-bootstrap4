@@ -29,10 +29,12 @@ html {
   }
 }
 
+//top-border
 body {
   border-top: 5px solid $brand-primary;
 }
 
+//code-specific... code
 .mycode {
   font-family: $font-family-monospace;
   font-size: $code-font-size;
@@ -48,3 +50,24 @@ body {
   color:#9C9E9C;
 }
 
+
+
+// only used by all.html
+.sub-header {
+  padding-bottom: 9px;
+  margin: 10rem 0 2rem;
+  border-bottom: 1px solid #eee;
+  h2 {
+    @extend h1;
+  }
+}
+
+h3.component-title {
+  @extend .lead;
+  font-weight: bold;
+  margin: 1.5rem 0 1rem;
+} 
+h4.component-title {
+  @extend .lead;
+  margin: 1.5rem 0 .5rem;
+}
