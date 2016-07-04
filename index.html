@@ -30,13 +30,10 @@ layout: default
           Build your own Bootstrap 4 theme. Workflow included.
         </div>
       </p>
-      <div class="separator m-b-4"></div>
+      <div class="separator m-b-3"></div>
       <p>
-        <a class="btn btn-lg btn-secondary separator m-b-1" href='#demos'>
-          &#x2b07; Download &nbsp;
-        </a>
         <a class="btn btn-lg btn-primary separator m-b-1" href='https://github.com/bdavidxyz/yourown-bootstrap4/' target='_blank'>
-          <span class='hidden-xs-down'>&#x2605; Star it on GitHub</span>
+          <span class='hidden-xs-down'>&#x2605; View it on GitHub</span>
           <span class='hidden-sm-up'>&#x2605; GitHub</span>
         </a>
       </p>
@@ -48,82 +45,60 @@ layout: default
 
 
 
-  <div class="separator m-b-6"></div>
-  <div class="row">
-    <div class="col-md-8 offset-md-2">
-      <h2 class='text-xs-center'>
-        <div>
-         Top <span class='text-primary'>Features</span>
-       </div>
-     </h2>
-     <p>&nbsp;</p>
-     <ol class="li">
-      <strong>Great coding comfort.</strong> 
-      Livereload in dev mode, no more need to manually refresh browser on each code change.
-    </ol>
-    <ol class="li">
-      <strong>Highly configurable assets.</strong> Keep Liquid templating intact, so parameterize HTML, CSS, JS and other assets as much as you like.
-    </ol>
-    <ol class="li">
-      <strong>Extreme ease of use.</strong> All complexity is hidden, so even if you don't know JS automation tools : only one command to launch dev mode, one command to deploy to github pages. 
-    </ol>
-    <ol class="li">
-      <strong>Blazing fast rendering </strong> Strongly optimized so that you start with high score on Google Page Speed Insights, and an excellent SpeedIndex on webpagetest.org
-    </ol>
-  </div>
-</div>
-
-
-
-
-
-
 <div class="separator m-b-5"></div>
 <div class="row">
   <div class="col-md-8 offset-md-2">
     <h2 class='text-xs-center'>
       <div>
-        How to <span class='text-primary'>use</span> it ?
+        <span class='text-primary'>Usage</span>
       </div>
     </h2>
-
-
-
-
-
     <div class="separator m-b-2"></div>
     <p>
       0. Check your tools
     </p>
     <div class='mycode'>
       <div>
-        $ git --version <span class='mycode__comment'>// tested with</span>
+        $ git --version <span class='mycode__comment'>&nbsp;&nbsp;&nbsp;// tested with</span>
       </div>
       <div>
-        $ ruby --version <span class='mycode__comment'>// tested with</span>
+        $ ruby --version <span class='mycode__comment'>&nbsp;&nbsp;// tested with</span>
       </div>
       <div>
         $ jekyll --version <span class='mycode__comment'>// tested with</span>
       </div>
       <div>
-        $ npm --version <span class='mycode__comment'>// tested with</span>
+        $ npm --version <span class='mycode__comment'>&nbsp;&nbsp;&nbsp;// tested with</span>
       </div>
       <div>
-        $ gulp --version <span class='mycode__comment'>// tested with</span>
+        $ node --version <span class='mycode__comment'>&nbsp;&nbsp;// tested with</span>
+      </div>
+      <div>
+        $ gulp --version <span class='mycode__comment'>&nbsp;&nbsp;// tested with</span>
       </div>
     </div>
 
 
+
+
     <div class="separator m-b-2"></div>
     <p>
-      1. Develop locally
+      1. (Optional step) extract last version of Bootstrap. First, empty the _sass directory of yourow-bootstrap4. Copy the <a href="https://github.com/twbs/bootstrap/tree/v4-dev/scss">scss folder</a> content of Bootstrap 4 into the _sass directory.
+    </p>
+
+
+
+
+    <div class="separator m-b-2"></div>
+    <p>
+      2. Start your workflow
     </p>
     <div class='mycode'>
       <div>
-        $ git clone https://github.com/bdavidxyz/impatient-jekyll/
+        $ git clone https://github.com/bdavidxyz/yourown-bootstrap4/
       </div>
       <div>
-        $ cd impatient-jekyll
+        $ cd yourown-bootstrap4
       </div>
       <div>
         $ npm install
@@ -138,26 +113,40 @@ layout: default
         # and will rebuild and live-reload each time you
       </div>
       <div class='mycode__comment'>
-        # change a CSS, JS, or HTML file
+        # change a SCSS, JS, or HTML file
       </div>
     </div>
 
 
     <div class="separator m-b-2"></div>
     <p>
-      2. Extract CSS once you are happy with it.
+      3. Modify _sass/custom.scss
+    </p>
+    <div class='mycode'>
+      <div class='mycode__comment'>
+//  Settings from this file will override the Bootstrap defaults without   modifying key, versioned files.
+      </div>
+    </div>
+
+
+    <div class="separator m-b-2"></div>
+    <p>
+      4. Visually check each modification on the whole Bootstrap distribution : localhost:3000/all.html <strong>contains all Bootstrap 4 visual components</strong>. 
+    </p>
+
+
+    <div class="separator m-b-2"></div>
+    <p>
+      5. Repeat 3. and 4., until you are happy with your own bootstrap theme.
     </p>
     <div class='mycode'>
       <div>
-        <span class='mycode__comment'>// the whole CSS is under _site/main.css</span>
+        <span class='mycode__comment'>// the whole compiled CSS is under _site/main.css</span>
       </div>
     </div>
-
-
-
   </div>
-
 </div>
+
 
 
 
@@ -166,34 +155,55 @@ layout: default
 
 
 <div class="separator m-b-6"></div>
-<div class="row">
-  <div class="col-md-8 offset-md-2">
-    <h2 class='text-xs-center'>
+  <div class="row">
+    <div class="col-md-8 offset-md-2">
+      <h2 class='text-xs-center'>
+        <div>
+         <span class='text-primary'>FAQ</span>
+       </div>
+     </h2>
+     <p>&nbsp;</p>
+     <div>
+      <strong>Bootstrap 4 is only in available in pre-alpha and therefore unstable, isn't it ?</strong> 
       <div>
-        How does it <span class='text-primary'>works</span> ?
+      Indeed. Officially Bootstrap 4 is not yet production ready, but the coding comfort is so huge that you may want to try it now :) If you want the last version of Bootstrap, simply go to its Github Project, download last version and follow optional step 1 above.
       </div>
-    </h2>
-    <p>
-      In dev mode
-    </p>
-    <ol class="li">1. A <strong>normal jekyll build</strong> occurs</ol>
-    <ol class="li">
-      <div>2. CSS files are compiled & concatenated in one single file,</div>
-      <div>but not minified, handy for debugging.</div>
-    </ol>
-    <ol class="li">
-      <div>3. JS files are left "as is", handy for debugging.</div>
-    </ol>
-    <ol class="li">4. <strong>browserSync</strong> launches the browser automatically</ol>
-    <ol class="li">5. A <strong>gulp</strong> task watch all project's file. If you change & save a file, it relaunches all previous steps above automatically, no need to refresh the browser !</ol>
-    <p>
-      Production mode works with Github gh-pages
-    </p>
-    <ol class="li">1. A <strong>normal jekyll build</strong> occurs</ol>
-    <ol class="li">2. CSS are concatenated, minified, unused CSS are removed, remaining CSS are inlined inside HTML, in the head part.</ol>
-    <ol class="li">3. JS files are concatenated, minified, and inlined inside HTML, just before the body closing tag.</ol>
-    <ol class="li">4. HTML is compressed.</ol>
-    <ol class="li">5. The whole _site directory is pushed to the github repository, on branch <i>gh-pages</i></ol>
+    </div>
+     <div class="separator m-b-1"></div>
+    <div>
+      <strong>But I can achieve a custom Bootstrap theme in many other ways...</strong> 
+      <div>  
+        Indeed. You can override Bootstrap CSS properties, but it performs poorly, and may lead to inconsistencies. You can change CSS properties in the Bootstrap custom download page, but without any preview of your work. Finally you can rebuild the whole Bootstrap distribution as stated in the Github repository, without visual check of all components at once. 
+      </div>
+    </div>
+    <div class="separator m-b-1"></div>
+    <div>
+      <strong>Ok, with your tool can customize CSS, but not Javascript.</strong> 
+      <div>
+        You can customize Javascript, but there is (not much) added value to do it with this tool : just go to the Bootstrap custom download page and select/unselect the JS components you need.
+      </div>
+    </div>
+    <div class="separator m-b-1"></div>
+    <div>
+      <strong>Why that bunch of tools ? </strong> 
+      <div>
+        Don't worry much about them, all complexity is hidden. Simple answer : Front-end dev tools make dev's life easier. If you know about them, you can customize the gulpfile, and package.json. The use of Jekyll may be seen here as overkill, I see here as a way to define variation of the theme through configuration.
+      </div>
+    </div>    
+    <div class="separator m-b-1"></div>
+    <div>
+      <strong>What are related projects ? </strong> 
+      <div>
+        The project is not part of Bootstrap 4. It is a fork of <a href="http://bdavidxyz.github.io/impatient-jekyll/">impatient-jekyll</a>, whose primary purpose is to get a proper workflow with the most known static website generator : Jekyll. You can find in the docs of Impatient-Jekyll more available configuration & commands.
+      </div>
+    </div>
+    <div class="separator m-b-1"></div>
+    <div>
+      <strong>Is there a demo ? </strong> 
+      <div>
+        This documentation is build with it. You can see the code on the <a href="https://github.com/bdavidxyz/yourown-bootstrap4/tree/docs">branch named "docs"</a> of the Github project. 
+      </div>
+    </div>
   </div>
 </div>
 
@@ -201,124 +211,14 @@ layout: default
 
 
 
-<div class="separator m-b-6"></div>
-<div class="row">
-  <div class="col-md-8 offset-md-2">
-    <h2 class='text-xs-center'>
-      <div>
-        How to <span class='text-primary'>customize</span> it ?
-      </div>
-    </h2>
-    <div class="separator m-b-2"></div>
-    <p>
-      There are very few changes compared to a plain old jekyll v3 project
-    </p>
-    <div class="separator m-b-3"></div>
-    <h3>Jekyll configuration</h3>
-    <p>
-      <div>In addition to the regular <code>_config.yml</code>, </div>
-      <div><code>_config.prod.yml</code> is added for production-only variables.</div>
-    </p>
-    <div class="separator m-b-3"></div>
-    <h3>Task automation</h3>
-    <p>
-      <div><code>gulpfile.js</code> is where automation happens,</div>
-      <div><code>package.json</code> and <code>node_modules/</code> folder</div>
-      <div>are only here for the gulpfile to work properly</div>
-      <div class="separator m-b-1"></div>
-      <div>Feel free to modify the gulpfile as you wish. </div>
-    </p>
 
-
-    <div class="separator m-b-3"></div>
-    <h3>Add a CSS file</h3>
-    <p>
-      <div>In dev mode there are no difference with Jekyll. </div>
-      <div class="separator m-b-1"></div>
-      <div>Just as a reminder : css/main.scss is the main entry point. </div>
-      <div>In this file <strong>you can inject user-defined properties</strong>  - a property in _config.yml can be avaible in this file by injecting a template like this : &#123;&#123;site.main_color&#125;&#125;</div>
-      <div> </div>
-    </p>
-
-
-    <div class="separator m-b-3"></div>
-    <h3>Add a JavaScript file</h3>
-    <p>
-      <div>To add a JavaScript file to your project, add an HTML file into the <code>_includes/</code> folder, and write JS inside a script tag, like this : </div>
-      <div class="separator m-b-1"></div>
-      <div class='mycode'>
-        <div>&#60;script type="text/javascript"&#62;</div>
-        <div>&nbsp;&nbsp;&#47;&#47;&nbsp;any JS here...</div>
-        <div>&#60;script&#47;&#62;</div>
-      </div>
-      <div class="separator m-b-1"></div>
-      <div>Doing so will allow you to inject user-defined properties, the same way as CSS above.</div>
-      <div class="separator m-b-1"></div>
-      <div>Then, add the file to <code>_layout/default</code> like this </div>
-      <div class="separator m-b-1"></div>
-      <div class='mycode'>
-        <div>&#60;&#33;--startjs--&#62;</div>
-        <div>&#123;&#37; include my-js-file.html &#37;&#125;</div>
-        <div>&#60;&#33;--endjs--&#62;</div>
-      </div>
-      <div class="separator m-b-1"></div>
-      <div>Note the startjs and endjs comments : any JS between these will be optimized in production</div>
-    </p>
-
-
-
-
-
-
-    <div class="separator m-b-3"></div>
-    <h3>Add any assets, other than CSS & JS </h3>
-    <p>
-      <div>What if you want more than CSS & JS ? Maybe fonts or image ? </div>
-      <div>Let's see an example with font Montserrat. </div>
-      <div>Simply insert <code>fonts/Montserrat.oft</code> at the root.</div>
-      <div>And the following code inside <code>css/main.scss</code></div>
-      <div class="separator m-b-1"></div>
-      <div class='mycode'>
-        <div>@font-face {</div>
-        <div>&nbsp;&nbsp;font-family: 'Montserrat-Light';</div>
-        <div>&nbsp;&nbsp;src: url('&#123;&#123;site.baseurl&#125;&#125;/fonts/Montserrat-Light.otf');</div>
-        <div>}</div>
-      </div>
-      <div class="separator m-b-1"></div>
-      <div>Note the use of <code>site.baseurl</code> to retrieve the font</div>
-    </p>
-  </div>
-
-</div>
-
-
-<div class="separator m-b-6"></div>
-<div class="row">
-  <div class="col-md-8 offset-md-2">
-    <h2 class='text-xs-center'>
-      <div>
-        The <span class='text-primary'>story</span> behind Impatient-Jekyll
-      </div>
-    </h2>
-    <div class="separator m-b-2"></div>
-    <p>I already knew and used Jekyll in the past (mostly v2).</p>
-    <p>Then I worked for front-end projects with all modern tooling like webpack, browsersync, etc.</p>
-    <p>Back to Jekyll (v3), I couldn't believe that the default build command still be so painful to the developer, and that the final build had such a very low score at Google Page Speed Insight.</p>
-    I started to google around, and found very clever approaches here and there, but none of them combined the full workflow I needed </p>
-    <ul>
-      <li>Respect the default Jekyll build, it allows to inject any user-defined vars into SCSS and template.</li>
-      <li>Have all the JS and CSS livereloaded, and allow to easily add any other assets</li>
-      <li>Have a skyrocketing score at Google Page Speed Insight. Without a healthy build when starting your project, you end up with a performance optimization nightmare.</li>
-    </ul>
-  </div>
-</div>
 
 <div class="separator m-b-6"></div>
 <div class="row text-xs-center">
   <div class="col-md-8 offset-md-2">
     <h2>
       <div>
-        Author
+        <span class='text-primary'>Author</span>
       </div>
     </h2>
     <div class="separator m-b-2"></div>
@@ -326,6 +226,7 @@ layout: default
     <div class="separator m-b-2"></div>
     <a class="btn btn-lg btn-primary separator m-b-1" href='http://bdavidxyz.com/' target='_blank'>
       <span class='hidden-xs-down'>Learn more about my work →</span>
+      <span class='hidden-sm-up'>Work →</span>
     </a>
   </div>
 </div>
